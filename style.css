@@ -1,6 +1,8 @@
 .light_container {
     width: 80px;
     height: 80px;
+    margin-bottom: 10px;
+    
 }
 
 .light_bulb {
@@ -12,4 +14,30 @@ main {
     background-image: url("https://images.unsplash.com/photo-1594302124904-3c87dd9f28f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGxpZ2h0bmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
     background-repeat: no-repeat;
     background-size: 100%;
+    width: 600px;
+    height: 600px;
+}
+
+section {
+
+}
+
+/* sections */
+
+#section1 {
+    position: relative;
+    left: 29%;
+    top: 15%;
+}
+
+#section2 {
+    position: relative;
+    left: 45%;
+    bottom: 30%;
+}
+
+#section3 {
+    position: relative;
+    left: 61%;
+    bottom: 75%
 }
