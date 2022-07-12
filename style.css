@@ -2,7 +2,8 @@
     width: 80px;
     height: 80px;
     margin-bottom: 10px;
-    
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .light_bulb {
@@ -16,28 +17,19 @@ main {
     background-size: 100%;
     width: 600px;
     height: 600px;
+    
 }
 
-section {
-
+#bulb_basket {
+    height: 450px;
+    width:600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
 }
 
-/* sections */
-
-#section1 {
-    position: relative;
-    left: 29%;
-    top: 15%;
-}
-
-#section2 {
-    position: relative;
-    left: 45%;
-    bottom: 30%;
-}
-
-#section3 {
-    position: relative;
-    left: 61%;
-    bottom: 75%
+.break {
+    flex-basis: 100%;
+    height: 0;
 }
